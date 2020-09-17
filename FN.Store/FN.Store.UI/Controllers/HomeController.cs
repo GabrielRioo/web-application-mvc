@@ -13,5 +13,15 @@ namespace FN.Store.UI.Controllers
         {
             return View(); 
         }
+        
+        public ViewResult Sobre()
+        {
+            return View(); 
+        }
+        
+        //public ViewResult ()
+        //{
+        //    return View(); 
+        //}
     }
 }
