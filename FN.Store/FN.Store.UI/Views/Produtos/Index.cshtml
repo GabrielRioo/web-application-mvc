@@ -10,17 +10,17 @@
         </tr>
     </thead>
     <tbody>
+        @foreach (var produto in Model)
+        {
         <tr>
-            <td>Carne</td>
-            <td>R$ 70,00</td>
-            <td>Alimento</td>
-            <td>29/07/2020</td>
+            <td>@produto.Nome</td>
+            <td>@produto.Preco</td>
+            <td>@produto.Tipo</td>
+            <td>@produto.Qtde</td>
+            <td>@produto.DataCadastro</td>
+            
         </tr>
-        <tr>
-            <td>Pasta de Dentes</td>
-            <td>R$ 20,00</td>
-            <td>Higiene</td>
-            <td>15/08/2020</td>
-        </tr>
+        }
+        
     </tbody>
 </table>
