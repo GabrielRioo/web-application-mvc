@@ -152,3 +152,7 @@ C:\Gabrieltmp\GitHub\web-application-mvc\FN.Store\FN.Store.UI\obj\Debug\FN.Store
 C:\Gabrieltmp\GitHub\web-application-mvc\FN.Store\FN.Store.UI\obj\Debug\FN.Store.UI.csproj.CopyComplete
 C:\Gabrieltmp\GitHub\web-application-mvc\FN.Store\FN.Store.UI\obj\Debug\FN.Store.UI.dll
 C:\Gabrieltmp\GitHub\web-application-mvc\FN.Store\FN.Store.UI\obj\Debug\FN.Store.UI.pdb
+C:\Gabrieltmp\GitHub\web-application-mvc\FN.Store\FN.Store.UI\bin\EntityFramework.dll
+C:\Gabrieltmp\GitHub\web-application-mvc\FN.Store\FN.Store.UI\bin\EntityFramework.SqlServer.dll
+C:\Gabrieltmp\GitHub\web-application-mvc\FN.Store\FN.Store.UI\bin\EntityFramework.xml
+C:\Gabrieltmp\GitHub\web-application-mvc\FN.Store\FN.Store.UI\bin\EntityFramework.SqlServer.xml
