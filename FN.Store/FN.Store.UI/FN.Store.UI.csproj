@@ -103,6 +103,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProdutosController.cs" />
     <Compile Include="Controllers\TesteController.cs" />
+    <Compile Include="Data\DbInitializer.cs" />
     <Compile Include="Data\FNStoreDataContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

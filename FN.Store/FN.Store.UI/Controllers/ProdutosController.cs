@@ -9,15 +9,20 @@ using System.Web.Mvc;
 
 namespace FN.Store.UI.Controllers
 {
-    public class ProdutosController : Controller
-    {
-        public ViewResult Index()
-        {
-            var ctx = new FNStoreDataContext();
-            var produtos = ctx.Produtos.ToList();
+	public class ProdutosController : Controller
+	{
+		public ViewResult Index()
+		{
+			IList<Produto> produtos = null;
+			using (var ctx = new FNStoreDataContext())
+			{
+				produtos = ctx.Produtos.ToList();
+
+			}
 
 
-            return View(produtos);
-        }
-    }
+
+			return View(produtos);
+		}
+	}
 }
